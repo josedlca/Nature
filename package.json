@@ -1,0 +1,21 @@
+{
+  "name": "nature",
+  "version": "1.0.0",
+  "description": "Langding page for nature",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scc css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -0 css/style.concat.css css/icon-font-css css/tyle.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
+    "compress:css":""
+  },
+  "author": "chenchopa chenchopa",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "concat": "^1.0.3",
+    "node-sass": "^4.9.0",
+    "postcss-cli": "^4.1.1"
+  }
+}
