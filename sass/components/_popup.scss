@@ -30,13 +30,19 @@
         transition: all .5s .2s;
 
         @include respond(phone){
-            background-color:red;
+            width: 80%;
         }
     }
 
     &__left{
         width:33.333333%;
         display: table-cell;
+        @include respond(phone){
+            display: none;
+        }
+        @include respond(tab-port){
+            vertical-align: middle;
+        }
     }
 
     &__right{
