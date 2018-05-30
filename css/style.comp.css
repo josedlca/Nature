@@ -935,6 +935,9 @@ body {
   top: 0;
   transform: rotate(-135deg); }
 
+.desapear {
+  display: none !important; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
